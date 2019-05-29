@@ -1,7 +1,7 @@
 # Irregular Sudoku Solver
 > *A Sudoku solver that solves Sudoku of any shapes*
 
-Sudoku nowadays not only come in the shape of typical 9*9 grids, lots of variants have emerged over the years. There are lots of variants, and normal Sudoku solvers are not designed for these problems. Irregular Sudoku solver is a solver that aims to solve Sudoku's with the grids in any arbitrary shapes!
+Sudoku nowadays not only come in the shape of typical 9*9 grids, lots of variants have emerged over the years. And normal Sudoku solvers are not designed for these problems. Irregular Sudoku solver is a solver that aims to solve Sudoku's with the grids in any arbitrary shapes!
 
 Exmples of such Sudokus can be found here:
 - [Puzzles by Andrew Lamonica](http://lamonica.info/CAOSPuzzle/U.html)
