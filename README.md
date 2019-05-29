@@ -1,2 +1,2 @@
 # irregular-sudoku-solver
-A Sudoku solver that solves sodoku of any shapes
+A Sudoku solver that solves Sudoku of any shapes

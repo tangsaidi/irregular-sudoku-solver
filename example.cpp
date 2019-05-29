@@ -2,10 +2,10 @@
 #include <vector>
 #include <utility>
 #include <ctime>
-#include "IrregularSodoku.h"
+#include "IrregularSudoku.h"
 
 int main(int argc, char *argv[]) {
-    // Construct IrregularSodoku Object
+    // Construct IrregularSudoku Object
     bool silent = false;
     if (argc != 1) {
         const char * silentFlag = "--silent";
@@ -14,11 +14,11 @@ int main(int argc, char *argv[]) {
         }
     }
 
-    IrregularSodoku iso = IrregularSodoku(silent);
+    IrregularSudoku iso = IrregularSudoku(silent);
     std::cout << iso;
 
     int repeats = 20;
-    std::vector<IrregularSodoku> isoArr(repeats, IrregularSodoku(iso));
+    std::vector<IrregularSudoku> isoArr(repeats, IrregularSudoku(iso));
     std::cout << "=====================" << std::endl;
     clock_t tStart = clock();
     
